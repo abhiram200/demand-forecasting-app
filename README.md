@@ -45,7 +45,7 @@ python app.py
 ```
 
 ### 4️⃣ Open your browser at
-http://127.0.0.1:5050
+- http://127.0.0.1:5050
 
 ## 🛠️ Usage
 - Sign Up with your email and password.
@@ -56,4 +56,4 @@ http://127.0.0.1:5050
 ## 👤 Author
 - Abhiram RS
 - 📧 Email - abhiramrs24@gmail.com
-- 💼 Portfolio - https://abhiram200.github.io/portfolio/
+- 💼 [Portfolio](https://abhiram200.github.io/portfolio/)
