@@ -7,7 +7,7 @@ This app allows users to:
 - 📧 Reset forgotten passwords via email verification.
 - 📂 Upload data for forecasting.
 - 🔮 Get ML-driven demand predictions for products.
-- 🌐 Use a React/HTML frontend that communicates with the Flask backend.
+- 🌐 Uses a HTML/CSS frontend that communicates with the Flask backend.
 
 ---
 
@@ -20,8 +20,6 @@ This app allows users to:
   Trained model predicts future product demand based on historical and contextual features.  
 - **Email Support**  
   Password reset via email using Gmail SMTP.  
-- **Frontend-Backend Separation**  
-  Clean structure with `index.html`, `style.css`, and JS for interaction.  
 
 ---
 
