@@ -1,0 +1,9 @@
+flask
+pandas
+xgboost
+scikit-learn
+joblib
+flask_cors
+flask-bcrypt
+Flask-Mail
+python-dotenv

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Inventory Demand Forecast</title>
+  <link rel="stylesheet" href="home-style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Top Navigation -->
+  <nav class="navbar">
+    <h1>📊 Demand Forecasting Dashboard</h1>
+    <div class="user-panel">
+      <p id="userInfo"></p>
+      <button class="logout-btn" id="logoutBtn">Logout</button>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h2>📦 Inventory Demand Forecast</h2>
+    <form id="forecastForm">
+
+      <!-- Product ID -->
+      <div class="form-group floating">
+        <select name="Product ID" required>
+          <option value="" disabled selected></option>
+          <option value="P0001">P0001</option>
+          <option value="P0002">P0002</option>
+          <option value="P0003">P0003</option>
+          <option value="P0004">P0004</option>
+          <option value="P0005">P0005</option>
+          <option value="P0006">P0006</option>
+          <option value="P0007">P0007</option>
+          <option value="P0008">P0008</option>
+          <option value="P0009">P0009</option>
+          <option value="P0010">P0010</option>
+          <option value="P0011">P0011</option>
+          <option value="P0012">P0012</option>
+          <option value="P0013">P0013</option>
+          <option value="P0014">P0014</option>
+          <option value="P0015">P0015</option>
+          <option value="P0016">P0016</option>
+          <option value="P0017">P0017</option>
+          <option value="P0018">P0018</option>
+          <option value="P0019">P0019</option>
+          <option value="P0020">P0020</option>
+        </select>
+        <label>Product ID</label>
+      </div>
+
+      <!-- Category -->
+      <div class="form-group floating">
+        <select name="Category" required>
+          <option value="" disabled selected></option>
+          <option>Groceries</option>
+          <option>Toys</option>
+          <option>Electronics</option>
+          <option>Furniture</option>
+          <option>Clothing</option>
+        </select>
+        <label>Category</label>
+      </div>
+
+      <!-- Region -->
+      <div class="form-group floating">
+        <select name="Region" required>
+          <option value="" disabled selected></option>
+          <option>North</option>
+          <option>South</option>
+          <option>West</option>
+          <option>East</option>
+        </select>
+        <label>Region</label>
+      </div>
+
+      <div class="form-group floating">
+        <input type="number" name="Inventory Level" placeholder=" " required>
+        <label>Inventory Level</label>
+      </div>
+
+      <div class="form-group floating">
+        <input type="number" name="Demand Forecast" placeholder=" " required>
+        <label>Units Sold in the past</label>
+      </div>
+
+      <div class="form-group floating">
+        <input type="number" step="0.01" name="Price" placeholder=" " required>
+        <label>Price</label>
+      </div>
+
+      <div class="form-group floating">
+        <input type="number" step="0.01" name="Discount" placeholder=" " required>
+        <label>Discount</label>
+      </div>
+
+      <div class="form-group floating">
+        <select name="Weather Condition" required>
+          <option value="" disabled selected></option>
+          <option>Rainy</option>
+          <option>Sunny</option>
+          <option>Cloudy</option>
+          <option>Snowy</option>
+        </select>
+        <label>Weather Condition</label>
+      </div>
+
+      <div class="form-group floating">
+        <select name="Holiday/Promotion" required>
+          <option value="" disabled selected></option>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+        <label>Holiday/Promotion</label>
+      </div>
+
+      <div class="form-group floating">
+        <input type="number" step="0.01" name="Competitor Pricing" placeholder=" " required>
+        <label>Competitor Pricing</label>
+      </div>
+
+      <div class="form-group floating">
+        <select name="Seasonality" required>
+          <option value="" disabled selected></option>
+          <option>Autumn</option>
+          <option>Summer</option>
+          <option>Winter</option>
+          <option>Spring</option>
+        </select>
+        <label>Seasonality</label>
+      </div>
+
+      <div class="form-group floating">
+        <input type="date" name="Date" placeholder=" " required>
+        <label>Date</label>
+      </div>
+
+      <button type="submit">🔮 Predict Demand</button>
+      <div class="loader" id="loader" style="display: none;"></div>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="home-script.js"></script>
+</body>
+
+</html>
