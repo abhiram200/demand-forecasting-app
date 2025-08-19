@@ -48,12 +48,12 @@ python app.py
 http://127.0.0.1:5050
 
 ## 🛠️ Usage
-> Sign Up with your email and password.
-> Login → You’ll be redirected to the dashboard.
-> Enter product details and date to get forecasted demand.
-> If password is forgotten → Use Forgot Password (reset link will be sent to email).
+- Sign Up with your email and password.
+- Login → You’ll be redirected to the dashboard.
+- Enter product details and date to get forecasted demand.
+- If password is forgotten → Use Forgot Password (reset link will be sent to email).
 
 ## 👤 Author
-Abhiram RS
-📧 Email - abhiramrs24@gmail.com
-💼 Portfolio - https://abhiram200.github.io/portfolio/
+- Abhiram RS
+- 📧 Email - abhiramrs24@gmail.com
+- 💼 Portfolio - https://abhiram200.github.io/portfolio/
