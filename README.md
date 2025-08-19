@@ -56,4 +56,4 @@ python app.py
 ## 👤 Author
 - Abhiram RS
 - 📧 Email - abhiramrs24@gmail.com
-- 💼 [Portfolio](https://abhiram200.github.io/portfolio/)
+- 💼 Portfolio - https://abhiram200.github.io/portfolio/
