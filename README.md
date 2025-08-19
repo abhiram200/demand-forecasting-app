@@ -27,7 +27,7 @@ This app allows users to:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/demand-forecasting-app.git
+git clone https://github.com/abhiram200/demand-forecasting-app.git
 cd demand-forecasting-app
 pip install -r requirements.txt
 ```
