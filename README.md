@@ -32,12 +32,17 @@ cd demand-forecasting-app
 pip install -r requirements.txt
 ```
 
-### 2️⃣ Create a .env file in the root directory
+### 2️⃣ Edit the .env file in the root directory
 ```bash
 MAIL_USERNAME=your_gmail@gmail.com
 MAIL_PASSWORD=your_app_password
 MAIL_DEFAULT_SENDER=your_gmail@gmail.com
 ```
+- Replace *your_gmail@gmail.com* with you email ID
+- Replace *your_app_password* with your app password
+
+#### Note
+- To know how to create app password visit [this site](https://support.google.com/accounts/answer/185833?hl=en)
 
 ### 3️⃣ Run the application
 ```bash
